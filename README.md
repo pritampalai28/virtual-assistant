@@ -44,13 +44,7 @@ npm run dev
 
 
 
-## 📊 Pricing Tiers
 
-| Tier | Price | Features |
-|------|-------|----------|
-| Free | ₹0 | 5 reports/month |
-| Pro | ₹499/mo | 50 reports + Email drafts |
-| Business | ₹1,499/mo | Unlimited + API access |
 
 ## 🛠️ Tech Stack
 
