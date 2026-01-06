@@ -1,0 +1,16 @@
+# Render deployment configuration
+services:
+  - type: web
+    name: leadgen-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: MISTRAL_API_KEY
+        sync: false
+      - key: MONGODB_URI
+        sync: false
+      - key: DATABASE_NAME
+        value: lead_research_saas
+      - key: DEBUG
+        value: false
